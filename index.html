@@ -1,9 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World</title>
+    <title>Rafael Rossi</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+    <style type="text/css">
+      p {
+        text-align: justify;
+      }
+
+      h3 {
+        font-family: 'Bad Script';
+        font-size: 60px;
+      }
+      
+      h4 {
+        font-family: 'Bad Script';
+        font-size: 40px;
+      }
+      .cnt {
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+
+      .card2 {
+        position: relative;
+        width: 100%;
+      }
+
+      .image {
+        display: block;
+        width: 130px;
+        height: auto;
+        border-radius: 100%;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 130px;
+        opacity: 0;
+        transition: .5s ease;
+        border-radius: 100%;
+      }
+
+      .card2:hover .overlay {
+        opacity: 0.8;
+        background-color: black;
+        border-radius: 100%;
+      }
+
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      </style>
+
 </head>
-<body>
-	<p>Teste</p>
+<body class="bg-light">
+  <div class="cnt container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/rafael.jpg" alt="Rafael Rossi">
+          <div class="card-body">
+            <h2 class="card-title">Rafael B. Rossi</h2>            
+            <p">Estudante de Ciência da Computação pela FURB, natural de Timbó. Já fez um mochilão pelo sudeste asiático e é apaixonado pelo mercado financeiro. 23 anos e ancap.</p> 
+            <hr>
+            <div align="center">
+            <a href="https://www.facebook.com/zauoyds" target="_blank" class="sep-icons"><img src="img/facebook.png"></a>
+            <a href="https://www.linkedin.com/in/rafael-rossi-337a4a64/" target="_blank" class="sep-icons"><img src="img/linkedin.png"></a>
+            <a href="https://www.instagram.com/zauoyds" target="_blank" class="sep-icons"><img src="img/instagram.png"></a>
+            <a href="https://medium.com/@zauoyds" target="_blank" class="sep-icons"><img src="img/medium.png"></a>
+            <a href="https://github.com/rbrossi" target="_blank" class="sep-icons"><img src="img/github.png"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="card">
+          <img class="card-img-top" src="img/sg.jpg" alt="Singapore">
+          <div class="card-body">
+            <h3>Who I am</h3>
+            <p class="p-1">Meu nome é Rafael Bertoldi Rossi, nasci em 16 de outubro de 1995 em Timbó, Santa Catarina. Desde cedo fui viciado em computador e já perdi as contas de quantas noites passei em claro fazendo experimentos e invenções com Linux e tantas outras ferramentas nerds. Em 2012 comecei a estagiar em uma loja de informática. Minha missão era consertar os computadores, formatar, configurar os programas, e todas essas coisas do dia-a-dia de TI. Deu para adquirir uma boa experiência, e no ano seguinte comecei a trabalhar em um provedor de Internet como assistente de Suporte Técnico.
+            <p class="p-1">Em um ano e meio, fui escolhido dentre mais de quinze pessoas para ser o líder do setor, e ajudar o supervisor já com algumas tarefas gerenciais. Após exatos seis meses, fui incumbido de assumir a gerência da equipe, aos 19 anos. Foi uma época de exímia responsabilidade e crescimento. Sem dúvidas, foi o evento que mais corroborou para o meu crescimento profissional. Fiquei nessa função até abril de 2018, quando decidi sair para me aventurar como trader.</p>
+            <p class="p-1">Desde que comecei a estudar sobre investimentos em 2013, foi paixão à primeira vista. Fiquei fascinado, e desde lá não parei. Todo dia acompanho o mercado, vejo a flutuação dos preços, faço aportes e acompanho o que os analistas estão falando. Hoje, seis meses depois de ter saído do último emprego, bate a saudade da área de tecnologia, e é algo que não vou conseguir deixar de lado. Estou estudando e me especializando em programação web, e à procura de novas oportunidades.
+            </p>
+            <p class="card-text"><small class="text-muted">Outubro de 2018</small></p>
+          </div>
+        </div>
+        <hr>
+        <div class="card">
+          <div class="card-body">
+            <h4>Interesses</h4>
+            <div class="row">              
+              <div class="col-md-2">
+                <div class="card2">
+                  <img src="img/travel.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Viagens
+                    </div>
+                  </div>
+                </div>
+              </div>              
+              <div class="col-md-2">
+                <div class="card2">
+                  <img src="img/prog.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Programação
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card2">
+                  <img src="img/invest.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Investimentos
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card2">
+                  <img src="img/entrepre.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Empreende-</br>dorismo
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card2">
+                  <img src="img/music.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Música
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+        </div> 
+        <hr> 
+        <footer>
+        <p style="text-align: center"><small class="text-muted" align="center">© 2018 | raffarossi@hotmail.com</small></p>  
+        </footer>
+      <div class="container">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
